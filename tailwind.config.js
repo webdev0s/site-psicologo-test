@@ -17,7 +17,7 @@ module.exports = {
         'contact-posit': 'left top 1px',
       },
       colors:{
-      'primary-white': '#fafeff',
+      'primary-white': '#FFFAFA',
       'primary-sea': '#769FCD',
       'primary-sky': '#B9D7EA',
       'primary-cloud': '#eaf3fb',
