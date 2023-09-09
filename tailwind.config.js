@@ -24,6 +24,10 @@ module.exports = {
       'primary-night': '#231F20',
       'primary-navy': '#0D162B',
       'primary-grape': '#146C94',
+      'primary-formulary': '#838383',
+      'primary-dropdown': '#666',
+      'secondary-dropdown': '#999',
+      'bg-dropdown': '#F9F9F9',
     },
       fontFamily: {
         'primary-title': ['Cardo', 'IBM Plex Sans', 'sans-serif'],

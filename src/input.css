@@ -18,6 +18,19 @@
     }
   }
 
+  .btn-grow {
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+    transform: scale(1.09); /* Aumenta o tamanho em 5% no hover */
+    }
+}
+
+.delayed-border-t {
+  transition-delay: 0.2s; /* Atraso de 0.2 segundos */
+  border-top-width: 3px; /* Largura da borda superior */
+}
+
   .animate-menu {
     animation: show-up .5s forwards
   }
