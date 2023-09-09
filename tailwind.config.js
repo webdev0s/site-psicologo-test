@@ -23,6 +23,7 @@ module.exports = {
       'primary-cloud': '#eaf3fb',
       'primary-night': '#231F20',
       'primary-navy': '#0D162B',
+      'primary-grape': '#146C94',
     },
       fontFamily: {
         'primary-title': ['Cardo', 'IBM Plex Sans', 'sans-serif'],

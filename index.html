@@ -12,18 +12,44 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  <header class="text-primary-night">
-    <div class="bg-primary-cloud py-5 text-primary-navy"> <!-- header container -->
-      <div class="flex items-center justify-around"> <!--flex header-->
-        <div class="">
-          <div class="justify-start text-19px flex">
-            <div class="mr-2"><img class="max-w-29px h-auto" src="src/img/psychology.png" alt=""></div>
-            <p class="font-primary-serif">Psicólogo</p>
+  <header class="bg-primary-cloud shadow-sm">
+    <div class="max-w-80% mx-auto py-5 text-primary-navy"> <!-- header container -->
+      <div class="flex items-center"> <!--flex header-->
+        <div class="block tablet:mx-auto tablet:flex-grow laptop:flex-grow-0 laptop:mx-0 laptop:mr-3">
+          <div class="mr-2 inline-block">
+            <img class="inline-block max-w-71px h-auto" src="./src/img/psychology.png" alt="">
           </div>
-          <h1 class="font-primary-title text-3xl">Heitor Lemos</h1>
+        </div> 
+        <div class="text-center mx-5 tablet:mx-auto tablet:flex-grow laptop:ml-0 laptop:mr-auto laptop:flex-grow-0">
+          <p class="font-primary-serif text-17px tablet:text-xl">Psicólogo</p>
+          <h1 class="font-primary-title text-3xl tablet:text-4xl">Heitor Lemos</h1>
         </div>
-        <div class="ml-5">
-          <i class="fa-solid fa-bars fa-2xl" style="color: #001231;"></i>
+        <div class="ml-5 justify-self-end flex-grow text-end laptop:hidden">
+          <i class="fa-solid fa-bars fa-2xl" style="color: #001b4b;"></i>
+        </div>
+        <div class="hidden laptop:block">
+          <nav class="flex font-primary-sans">
+            <ul class="">
+              <li class="px-5 py-3 font-medium text-xl text-primary-grape hover:text-primary-navy transition duration-500">
+                <a class="hover-line" href="#">Sobre</a>
+              </li>
+            </ul>
+            <ul>
+              <li class="px-5 py-3 font-medium text-xl text-primary-grape hover:text-primary-navy transition duration-500">
+                <a class="hover-line" href="#">Testemunhas</a>
+              </li>
+            </ul>
+            <ul>
+              <li class="px-5 py-3 font-medium text-xl text-primary-grape hover:text-primary-navy transition duration-500">
+                <a class="hover-line" href="#">Consulta</a>
+              </li>
+            </ul>
+            <ul>
+              <li class="px-5 py-3 font-medium text-xl text-primary-grape hover:text-primary-navy transition duration-500">
+                <a class="hover-line" href="#">Agende</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
     </div>
