@@ -696,6 +696,14 @@ video {
   max-width: 80%;
 }
 
+.max-w-60\% {
+  max-width: 60%;
+}
+
+.max-w-86\% {
+  max-width: 86%;
+}
+
 .flex-grow {
   flex-grow: 1;
 }
