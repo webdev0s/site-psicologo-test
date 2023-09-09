@@ -12,8 +12,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="icon" href="src/img/psychology_1118158.png" sizes="32x32">
 </head>
-<body class="bg-primary-white">
-  <header class="bg-primary-cloud shadow-sm fixed w-full">
+<body class="bg-primary-white antialiased">
+  <header class="bg-primary-cloud shadow-sm fixed w-full z-50">
     <div class="max-w-80% laptop:max-w-90% mx-auto py-5 text-primary-navy"> <!-- header container -->
       <div class="flex items-center  justify-between"> <!--flex header-->
         <div class="flex items-center">
@@ -24,7 +24,7 @@
           </div>
           <div class="text-center mx-0 tablet:flex-grow laptop:ml-0 laptop:mr-10 laptop:flex-grow-0">
             <p class="font-primary-serif text-17px tablet:text-xl">Psicólogo</p>
-            <h1 class="font-primary-title text-3xl tablet:text-4xl">Heitor Lemos</h1>
+            <h1 class="font-primary-title text-3xl tablet:text-4xl font-bold">Heitor Lemos</h1>
           </div>
         </div>
         <div id="dropdown" class="ml-5 justify-self-end flex-grow text-end laptop:hidden">
@@ -76,6 +76,28 @@
       </div>
     </div>
   </header>
+  <main class="relative">
+    <div class="max-w-80% mx-auto laptop:max-w-90%"> <!-- main container -->
+      <article class="grid laptop:grid-cols-2 pt-40 laptop:pt-60 bg-primary-white">
+          <div class="laptop:order-2">
+            <div class="relative z-40 ">
+              <img class="desktop:max-w-76%" src="src/img/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg" alt="">
+            </div>
+            <span class="before:absolute before:bg-psy-img-mobile before:bg-no-repeat before:bg-cover before:bg-left-bottom before:w-full before:h-full before:top-0 before:left-0 z-0 before:laptop:hidden"></span>
+          </div>
+          <div class="laptop:order-1">
+            <div class="text-primary-night  bg-primary-white">
+              <div class="relative z-40">
+                <h1 class="">Olá</h1>
+                <p class="">Isso é um texto</p>
+              </div>
+              <span class="before:hidden before:laptop:block before:absolute before:bg-psy-img-desktop before:bg-no-repeat before:bg-cover before:bg-right-top before:w-55% before:h-full before:top-0 before:left-0 z-0 "></span>
+          </div>
+          </div>          
+      </article>
+    </div>
+    <div class="pt-40">a</div>
+  </main>
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

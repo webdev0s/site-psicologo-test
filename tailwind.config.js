@@ -8,6 +8,8 @@ module.exports = {
       backgroundImage: {
         'globe-pattern': "url(https://staging3.croptrak.com/wp-content/uploads/2023/08/bg-about.svg)",
         'contact-pattern': "url(https://croptrak.com/wp-content/uploads/2023/08/bg-contact.svg)",
+        'psy-img-mobile': "url('/src/img/priscilla-du-preez-mobile-unsplash.jpg')",
+        'psy-img-desktop': "url('/src/img/priscilla-du-preez-desktop-unsplash.jpg')",
       },
       backgroundPosition: {
         'mobile-position': 'center top 2%',
@@ -17,7 +19,7 @@ module.exports = {
         'contact-posit': 'left top 1px',
       },
       colors:{
-      'primary-white': '#FFFAFA',
+      'primary-white': '#FFFfFf',
       'primary-sea': '#769FCD',
       'primary-sky': '#B9D7EA',
       'primary-cloud': '#eaf3fb',
@@ -95,6 +97,7 @@ module.exports = {
         '17': '4.2rem',
         '13': '3.25rem',
         '1.05rem': '1.05rem',
+        '675px': '675px',
         '468px': '468px',
         '340px': '340px',
         '300px': '300px',
@@ -134,6 +137,7 @@ module.exports = {
         '655px': '655px',
         '586px': '586px',
         '550px': '550px',
+        '450px': '450px',
         '97%' : '97%',
         '95%' : '95%', 
         '92%': '92%',
@@ -173,6 +177,7 @@ module.exports = {
       width: {
         '93%' : '93%',
         '90%' : '90%',
+        '55%': '55%',
         '815.844px': '815.844px',
         '72.27%': '850.812px',
         '72.07%': '72.07%',
