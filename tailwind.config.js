@@ -10,6 +10,8 @@ module.exports = {
         'contact-pattern': "url(https://croptrak.com/wp-content/uploads/2023/08/bg-contact.svg)",
         'psy-img-mobile': "url('/src/img/priscilla-du-preez-mobile-unsplash.jpg')",
         'psy-img-desktop': "url('/src/img/priscilla-du-preez-desktop-unsplash.jpg')",
+        'psy2-img-mobile': "url('/src/img/psi4.jpg')",
+        'psy2-img-desktop': "url('/src/img/psi4.jpg')",
       },
       backgroundPosition: {
         'mobile-position': 'center top 2%',
@@ -19,9 +21,9 @@ module.exports = {
         'contact-posit': 'left top 1px',
       },
       colors:{
-      'primary-white': '#FFFfFf',
+      'primary-white': '#FBFBFB',
       'primary-sea': '#769FCD',
-      'primary-sky': '#B9D7EA',
+      'primary-sky': '#AED2FF',
       'primary-cloud': '#eaf3fb',
       'primary-night': '#231F20',
       'primary-navy': '#0D162B',
@@ -30,6 +32,10 @@ module.exports = {
       'primary-dropdown': '#666',
       'secondary-dropdown': '#999',
       'bg-dropdown': '#F9F9F9',
+      'primary-brown': '#A9907E',
+      'primary-darkgreen': '#263A29',
+      'primary-darkblue': '#0E2954',
+      'primary-checklist': '#1A5D1A'
     },
       fontFamily: {
         'primary-title': ['Cardo', 'IBM Plex Sans', 'sans-serif'],
@@ -125,6 +131,7 @@ module.exports = {
         '5px': '5px',
         '3px': '3px',
         '2px': '2px',
+        '3%': '3%'
       },
       rotate:{
         '45': '-45deg'
@@ -173,6 +180,9 @@ module.exports = {
         '303px': '303px',
         '595px': '595px',
         '611px': '611px',
+        '50px': '50px',
+        '30px': '30px',
+        '40px': '40px'
       },
       width: {
         '93%' : '93%',
