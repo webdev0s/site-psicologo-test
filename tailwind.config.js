@@ -8,6 +8,7 @@ module.exports = {
       backgroundImage: {
         'globe-pattern': "url(https://staging3.croptrak.com/wp-content/uploads/2023/08/bg-about.svg)",
         'contact-pattern': "url(https://croptrak.com/wp-content/uploads/2023/08/bg-contact.svg)",
+        'bg-img-espelho': "url(https://br.freepik.com/vetores-gratis/mulher-sorridente-feliz-admirando-o-belo-reflexo-no-espelho-orgulhoso-de-beleza-e-autoconfianca-como-ilustracao-vetorial-plana-de-personagem-feminina-bonita-narcisismo-amor-proprio-conceito-de-psicologia_22343829.htm#query=psychology&position=4&from_view=search&track=sph)",
       },
       backgroundPosition: {
         'mobile-position': 'center top 2%',
@@ -21,8 +22,10 @@ module.exports = {
       'primary-sea': '#769FCD',
       'primary-sky': '#B9D7EA',
       'primary-cloud': '#D6E6F2',
+      'primary-dark': '#040D12'
     },
       fontFamily: {
+        'primary-title': ['Cardo', 'serif'],
         'primary-sans': ['IBM Plex Sans', 'sans-serif'],
         'primary-serif': ['IBM Plex Serif', 'serif'],
       },
@@ -160,6 +163,7 @@ module.exports = {
         '303px': '303px',
         '595px': '595px',
         '611px': '611px',
+        '400px': '400px'
       },
       width: {
         '93%' : '93%',
@@ -173,6 +177,7 @@ module.exports = {
         'text' : '70%',
         'textl': '73%',
         '200px': '200px',
+        '70%': '70%'
       },
       height: {
         '526px': '526px',
@@ -189,6 +194,7 @@ module.exports = {
         '85%' : '85%',
         '300px': '300px',
         '1/4': '25%',
+        '400px': '400px'
       },
       screens: {
         'tablet': '768px',
