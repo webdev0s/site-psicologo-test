@@ -88,3 +88,34 @@ document.addEventListener("DOMContentLoaded", function () {
     animationFrameId = requestAnimationFrame(animate);
   }
 });
+
+$('.slider-testimonial').slick({
+  dots: true,
+  infinite: true,
+  speed: 1200,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  autoplay: true,
+  autoplaySpeed: 5000,
+});
+
+const accordionList = document.querySelectorAll('.js-accordion dt')
+
+function activeAccordion(event) {
+  const element = this.nextElementSibling;
+  element.classList.remove('hidden')
+  if (!element.classList.contains('ativo')) {
+    // If 'ativo' is not present, remove 'inativo' and add 'ativo'
+    element.classList.remove('inativo');
+    element.classList.add('ativo');
+  } else {
+    // If 'ativo' is present, remove it and add 'inativo'
+    element.classList.remove('ativo');
+    element.classList.add('inativo');
+  }
+}
+
+accordionList.forEach((item) => {
+  item.addEventListener('click', activeAccordion);
+});

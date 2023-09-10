@@ -9,6 +9,7 @@ module.exports = {
         'globe-pattern': "url(https://staging3.croptrak.com/wp-content/uploads/2023/08/bg-about.svg)",
         'contact-pattern': "url(https://croptrak.com/wp-content/uploads/2023/08/bg-contact.svg)",
         'psy-img-mobile': "url('/src/img/priscilla-du-preez-mobile-unsplash.jpg')",
+        'especialidades-bg': "url('/src/img/endless-constellation.svg')",
         'psy-img-desktop': "url('/src/img/priscilla-du-preez-desktop-unsplash.jpg')",
         'psy2-img-mobile': "url('/src/img/psi4.jpg')",
         'psy2-img-desktop': "url('/src/img/psi4.jpg')",
@@ -27,7 +28,7 @@ module.exports = {
       'primary-cloud': '#eaf3fb',
       'primary-night': '#231F20',
       'primary-navy': '#0D162B',
-      'primary-grape': '#146C94',
+      'primary-grape': '#17709C',
       'primary-formulary': '#838383',
       'primary-dropdown': '#666',
       'secondary-dropdown': '#999',
@@ -55,6 +56,7 @@ module.exports = {
         '28px': '28px',
       },
       borderWidth:{
+        '1': '1px',
         '3px': '3px',
         '6': '6px',
         '10': '10px',
@@ -199,6 +201,7 @@ module.exports = {
         '200px': '200px',
       },
       height: {
+        '938px': '938px',
         '526px': '526px',
         '360px': '360px',
         '108px': '108px',
@@ -216,7 +219,7 @@ module.exports = {
       },
       screens: {
         'tablet': '768px',
-        'laptop': '980px',
+        'laptop': '1000px',
         'desktop': '1400px',
       },
       
