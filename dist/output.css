@@ -953,10 +953,6 @@ video {
   place-items: center;
 }
 
-.content-center {
-  align-content: center;
-}
-
 .items-center {
   align-items: center;
 }
@@ -971,10 +967,6 @@ video {
 
 .justify-around {
   justify-content: space-around;
-}
-
-.justify-items-center {
-  justify-items: center;
 }
 
 .justify-self-end {
@@ -1063,7 +1055,7 @@ video {
 }
 
 .bg-especialidades-bg {
-  background-image: url('/src/img/endless-constellation.svg');
+  background-image: url('srcimgendless-constellation.svg');
 }
 
 .bg-gradient-to-b {
