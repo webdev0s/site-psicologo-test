@@ -87,9 +87,16 @@
     z-index:1000;
 }
 
+.js-accordion dt.cor-ativo{
+  background-color: #769FCD;
+  transition-duration: 700ms ;
+  color: #FBFBFB;
+}
+
 .js-accordion dd.ativo {
   display: block;
   animation: slideDown 700ms ease-in-out;
+
 }
 
 @keyframes slideDown {
@@ -116,10 +123,12 @@
   from {
     height: 140px; /* Start with the desired height */
     margin-top: 16px;
+    padding-bottom:12px;
   }
   to {
     height: 0; /* Collapse to a height of 0 */
     margin-top: 0px;
+    padding-bottom:0px;
   }
 }
 

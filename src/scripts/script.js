@@ -119,3 +119,9 @@ function activeAccordion(event) {
 accordionList.forEach((item) => {
   item.addEventListener('click', activeAccordion);
 });
+
+accordionList.forEach((item) => {
+  item.addEventListener('click', function (){
+  item.classList.toggle('cor-ativo');
+});
+});
