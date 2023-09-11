@@ -8,7 +8,16 @@ module.exports = {
       backgroundImage: {
         'globe-pattern': "url(https://staging3.croptrak.com/wp-content/uploads/2023/08/bg-about.svg)",
         'contact-pattern': "url(https://croptrak.com/wp-content/uploads/2023/08/bg-contact.svg)",
+<<<<<<< Updated upstream
         'bg-img-espelho': "url(https://br.freepik.com/vetores-gratis/mulher-sorridente-feliz-admirando-o-belo-reflexo-no-espelho-orgulhoso-de-beleza-e-autoconfianca-como-ilustracao-vetorial-plana-de-personagem-feminina-bonita-narcisismo-amor-proprio-conceito-de-psicologia_22343829.htm#query=psychology&position=4&from_view=search&track=sph)",
+=======
+        'psy-img-mobile': "url('/src/img/priscilla-du-preez-mobile-unsplash.jpg')",
+        'especialidades-bg': "url('/src/img/endless-constellation.svg')",
+        'psy-img-desktop': "url('/src/img/priscilla-du-preez-desktop-unsplash.jpg')",
+        'psy2-img-mobile': "url('/src/img/psi4.jpg')",
+        'psy2-img-desktop': "url('/src/img/psi4.jpg')",
+        'maosdadas': "url('/src/img/maosdadas.jpg')",
+>>>>>>> Stashed changes
       },
       backgroundPosition: {
         'mobile-position': 'center top 2%',
@@ -20,9 +29,27 @@ module.exports = {
       colors:{
       'primary-white': '#FEFEFE',
       'primary-sea': '#769FCD',
+<<<<<<< Updated upstream
       'primary-sky': '#B9D7EA',
       'primary-cloud': '#D6E6F2',
       'primary-dark': '#040D12'
+=======
+      'primary-sky': '#AED2FF',
+      'primary-cloud': '#eaf3fb',
+      'primary-night': '#231F20',
+      'primary-navy': '#0D162B',
+      'primary-grape': '#17709C',
+      'primary-formulary': '#838383',
+      'primary-dropdown': '#666',
+      'secondary-dropdown': '#999',
+      'bg-dropdown': '#F9F9F9',
+      'primary-brown': '#A9907E',
+      'primary-darkgreen': '#263A29',
+      'primary-darkblue': '#0E2954',
+      'primary-checklist': '#1A5D1A',
+      'primary-questionBox': '#F6F5F5',
+      'primary-hover-questionBox': '#DFE7FA'
+>>>>>>> Stashed changes
     },
       fontFamily: {
         'primary-title': ['Cardo', 'serif'],
