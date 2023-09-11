@@ -13,6 +13,7 @@ module.exports = {
         'psy-img-desktop': "url('/src/img/priscilla-du-preez-desktop-unsplash.jpg')",
         'psy2-img-mobile': "url('/src/img/psi4.jpg')",
         'psy2-img-desktop': "url('/src/img/psi4.jpg')",
+        'maosdadas': "url('/src/img/maosdadas.jpg')",
       },
       backgroundPosition: {
         'mobile-position': 'center top 2%',
@@ -36,7 +37,9 @@ module.exports = {
       'primary-brown': '#A9907E',
       'primary-darkgreen': '#263A29',
       'primary-darkblue': '#0E2954',
-      'primary-checklist': '#1A5D1A'
+      'primary-checklist': '#1A5D1A',
+      'primary-questionBox': '#F6F5F5',
+      'primary-hover-questionBox': '#DFE7FA'
     },
       fontFamily: {
         'primary-title': ['Cardo', 'IBM Plex Sans', 'sans-serif'],
@@ -142,6 +145,7 @@ module.exports = {
         '1340px': '1340px',
         '1240px': '1240px',
         '1102px': '976.5px',
+        '1080px': '1080px',
         '938px': '938px',
         '655px': '655px',
         '586px': '586px',

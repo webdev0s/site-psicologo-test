@@ -27,6 +27,14 @@
     }
 }
 
+.btn-grow-mobile {
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+  transform: scale(1.03); /* Aumenta o tamanho em 5% no hover */
+  }
+}
+
   .delayed-border-t {
   transition-delay: 0.2s; /* Atraso de 0.2 segundos */
   border-top-width: 3px; /* Largura da borda superior */
@@ -72,6 +80,11 @@
   font-size: 0; /* Define o tamanho da fonte para zero */
   line-height: 0; /* Define a altura da linha para zero */
   transition: background-color 0.3s ease; /* Adicione uma transição para animações */
+}
+
+.whatsapp-btn {
+  position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+    z-index:1000;
 }
 
 .js-accordion dd.ativo {
