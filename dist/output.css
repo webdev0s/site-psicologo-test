@@ -1055,7 +1055,7 @@ video {
 }
 
 .bg-especialidades-bg {
-  background-image: url('./endless-constellation.svg');
+  background-image: url('../endless-constellation.svg');
 }
 
 .bg-gradient-to-b {
@@ -1428,7 +1428,7 @@ video {
 
 .before\:bg-maosdadas::before {
   content: var(--tw-content);
-  background-image: url('./src/img/maosdadas.jpg');
+  background-image: url('../src/img/maosdadas.jpg');
 }
 
 .before\:bg-cover::before {
