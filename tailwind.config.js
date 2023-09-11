@@ -9,7 +9,7 @@ module.exports = {
         'globe-pattern': "url(https://staging3.croptrak.com/wp-content/uploads/2023/08/bg-about.svg)",
         'contact-pattern': "url(https://croptrak.com/wp-content/uploads/2023/08/bg-contact.svg)",
         'psy-img-mobile': "url('/src/img/priscilla-du-preez-mobile-unsplash.jpg')",
-        'especialidades-bg': "url('.\src\img\endless-constellation.svg')",
+        'especialidades-bg': "url('\src\img\endless-constellation.svg')",
         'psy-img-desktop': "url('/src/img/priscilla-du-preez-desktop-unsplash.jpg')",
         'psy2-img-mobile': "url('/src/img/psi4.jpg')",
         'psy2-img-desktop': "url('/src/img/psi4.jpg')",
