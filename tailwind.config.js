@@ -39,7 +39,7 @@ module.exports = {
       'primary-darkblue': '#0E2954',
       'primary-checklist': '#1A5D1A',
       'primary-questionBox': '#F6F5F5',
-      'primary-hover-questionBox': '#DFE7FA'
+      'primary-hover-questionBox': '#F6FFFF'
     },
       fontFamily: {
         'primary-title': ['Cardo', 'IBM Plex Sans', 'sans-serif'],

@@ -72,7 +72,7 @@
 
 /* Estilize o dot ativo */
 .slider-testimonial .slick-dots li.slick-active::before {
-  background-color: rgb(20, 108, 148) !important; /* Defina a cor de fundo do dot ativo */
+  background-color: rgb(14 41 84) !important; /* Defina a cor de fundo do dot ativo */
 }
 
 /* Oculta os números que representam os itens do slider */
@@ -89,17 +89,19 @@
 
 .js-accordion dd.ativo {
   display: block;
-  animation: slideDown 900ms forwards;
+  animation: slideDown 700ms ease-in-out;
 }
 
 @keyframes slideDown {
   from{
     opacity:0;
     max-height:0 ;
+    margin-top:0;
   }
   to {
     max-height: 300px;
     opacity: 1;
+    margin-top: 16px;
   }
 }
 
@@ -107,14 +109,17 @@
   overflow: hidden; /* Hide overflowing content */
   animation: slideUp 900ms ease-in-out;
   animation-fill-mode: forwards; /* Keep the final state of the animation */
+  
 }
 
 @keyframes slideUp {
   from {
     height: 140px; /* Start with the desired height */
+    margin-top: 16px;
   }
   to {
     height: 0; /* Collapse to a height of 0 */
+    margin-top: 0px;
   }
 }
 
