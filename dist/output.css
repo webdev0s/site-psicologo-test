@@ -763,6 +763,16 @@ video {
   margin-right: 0px;
 }
 
+.mx-24 {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.mx-32 {
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -782,6 +792,10 @@ video {
 
 .ml-2 {
   margin-left: 0.5rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
 }
 
 .ml-5 {
@@ -844,10 +858,6 @@ video {
   margin-top: 1rem;
 }
 
-.mt-7 {
-  margin-top: 1.75rem;
-}
-
 .mt-8 {
   margin-top: 2rem;
 }
@@ -892,6 +902,10 @@ video {
   height: auto;
 }
 
+.h-52px {
+  height: 52px;
+}
+
 .w-12 {
   width: 3rem;
 }
@@ -916,8 +930,12 @@ video {
   width: 100%;
 }
 
-.max-w-1\/2 {
-  max-width: 50%;
+.w-152px {
+  width: 152px;
+}
+
+.max-w-1000px {
+  max-width: 1000px;
 }
 
 .max-w-1080px {
@@ -1033,14 +1051,28 @@ video {
   border-top-width: 3px;
 }
 
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 .border-primary-navy {
   --tw-border-opacity: 1;
   border-color: rgb(13 22 43 / var(--tw-border-opacity));
 }
 
+.border-primary-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(251 251 251 / var(--tw-border-opacity));
+}
+
 .border-t-primary-grape {
   --tw-border-opacity: 1;
   border-top-color: rgb(23 112 156 / var(--tw-border-opacity));
+}
+
+.border-opacity-20 {
+  --tw-border-opacity: 0.2;
 }
 
 .bg-cyan-200 {
@@ -1172,6 +1204,11 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .pb-17 {
   padding-bottom: 4.2rem;
 }
@@ -1271,6 +1308,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1352,6 +1394,11 @@ video {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.drop-shadow-xl {
+  --tw-drop-shadow: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .transition {
@@ -1577,12 +1624,23 @@ video {
     margin-right: 0px;
   }
 
-  .laptop\:ml-0 {
-    margin-left: 0px;
+  .laptop\:mx-106\.5px {
+    margin-left: 106.5px;
+    margin-right: 106.5px;
   }
 
-  .laptop\:ml-28 {
-    margin-left: 7rem;
+  .laptop\:mx-32 {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+
+  .laptop\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .laptop\:ml-0 {
+    margin-left: 0px;
   }
 
   .laptop\:ml-3 {
@@ -1629,6 +1687,10 @@ video {
     margin-top: 0.625rem;
   }
 
+  .laptop\:mt-24 {
+    margin-top: 6rem;
+  }
+
   .laptop\:mt-28 {
     margin-top: 7rem;
   }
@@ -1639,6 +1701,20 @@ video {
 
   .laptop\:hidden {
     display: none;
+  }
+
+  .laptop\:h-250px {
+    height: 250px;
+  }
+
+  .laptop\:w-full {
+    width: 100%;
+  }
+
+  @media (min-width: 1000px) {
+    .laptop\:laptop\:max-w-1\/2 {
+      max-width: 50%;
+    }
   }
 
   .laptop\:max-w-1\/2 {
@@ -1655,12 +1731,6 @@ video {
 
   .laptop\:max-w-full {
     max-width: 100%;
-  }
-
-  @media (min-width: 1000px) {
-    .laptop\:laptop\:max-w-1\/2 {
-      max-width: 50%;
-    }
   }
 
   .laptop\:flex-grow-0 {
@@ -1688,11 +1758,6 @@ video {
     border-bottom-left-radius: 0.75rem;
   }
 
-  .laptop\:bg-white {
-    --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  }
-
   .laptop\:bg-opacity-70 {
     --tw-bg-opacity: 0.7;
   }
@@ -1717,8 +1782,12 @@ video {
     padding-bottom: 1.25rem;
   }
 
-  .laptop\:pt-60 {
-    padding-top: 15rem;
+  .laptop\:pt-500px {
+    padding-top: 500px;
+  }
+
+  .laptop\:text-start {
+    text-align: start;
   }
 
   .laptop\:text-2xl {
@@ -1731,9 +1800,8 @@ video {
     line-height: 1.75rem;
   }
 
-  .before\:laptop\:block::before {
-    content: var(--tw-content);
-    display: block;
+  .laptop\:leading-10 {
+    line-height: 2.5rem;
   }
 
   .before\:laptop\:hidden::before {
@@ -1763,5 +1831,9 @@ video {
   .desktop\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .desktop\:leading-12 {
+    line-height: 3rem;
   }
 }
